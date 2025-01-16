@@ -1,3 +1,4 @@
+
 1.configure CheckPoint network and policy first.
 2.Connect CheckPoint to server.
 3.F10 configre the server Raid.
@@ -14,3 +15,4 @@
 14.update the two new server
 15.win10 pro install
 16.win11 pro workstation instalation need to choose generation 2 and drives choose SICO that will not cause erro 
+   win11 install need Meets the conditions:do not check the encryption under security type
