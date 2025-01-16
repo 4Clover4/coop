@@ -1,0 +1,14 @@
+1.configure CheckPoint network and policy first.
+2.Connect CheckPoint to server.
+3.F10 configre the server Raid.
+4.F9 install storage controller
+5.Install OS
+6.Change the servername
+7.Update Windows
+8.Use video drive to change display from 1024 to 1960
+9.use server manager install hyperV
+10.use hyperV install DC01 and DC02
+11.configure the external network(bridge) vlan1 and vlan2
+12.configure static ip address on DC01/02
+13.renew in the cmd
+14.update the two new server
