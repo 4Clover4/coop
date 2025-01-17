@@ -16,3 +16,5 @@
 15.win10 pro install
 16.win11 pro workstation instalation need to choose generation 2 and drives choose SICO that will not cause erro 
    win11 install need Meets the conditions:do not check the encryption under security type
+17.install the ninjia agents on the main server to be remotely control the whole hyperV and main server
+18.on the DC01 install ADDS with our domain name ewolf.pro
