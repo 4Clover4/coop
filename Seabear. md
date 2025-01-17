@@ -1,28 +1,30 @@
 
-1.configure CheckPoint network and policy first.
-2.Connect CheckPoint to server.
-3.F10 configre the server Raid.
-4.F9 install storage controller
-5.Install OS
-6.Change the servername
-7.Update Windows
-8.Use video drive to change display from 1024 to 1960
-9.use server manager install hyperV
-10.use hyperV install DC01 and DC02
-11.configure the external network(bridge) vlan1 and vlan2
-12.configure static ip address on DC01/02
-13.renew in the cmd
-14.update the two new server
-15.win10 pro install
-16.win11 pro workstation instalation need to choose generation 2 and drives choose SICO that will not cause erro 
+###1.configure CheckPoint network and policy first.
+###2.Connect CheckPoint to server.
+###3.F10 configre the server Raid.
+###4.F9 install storage controller
+###5.Install OS
+###6.Change the servername
+###7.Update Windows
+###8.Use video drive to change display from 1024 to 1960
+###9.use server manager install hyperV
+###10.use hyperV install DC01 and DC02
+###11.configure the external network(bridge) vlan1 and vlan2
+###12.configure static ip address on DC01/02
+###13.renew in the cmd
+###14.update the two new server
+###15.win10 pro install
+###16.win11 pro workstation instalation need to choose generation 2 and drives choose SICO that will not cause erro 
    win11 install need Meets the conditions:do not check the encryption under security type
-17.install the ninjia agents on the main server to be remotely control the whole hyperV and main server
-18.on the DC01 install ADDS with our domain name ewolf.pro
-19.DC02 join to DOMAIN
-20.sync the on-premise tenent to the 365 cloud
-21.download the Microsoft Entra Connect install on the DC01
-22.if it did not support for the TLS1.2 we need to open the powershell with admin to enforcement to use TLS1.2
-Function Get-ADSyncToolsTls12RegValue
+###17.install the ninjia agents on the main server to be remotely control the whole hyperV and main server
+###18.on the DC01 install ADDS with our domain name ewolf.pro
+###19.DC02 join to DOMAIN
+###20.sync the on-premise tenent to the 365 cloud
+   #### ga.coopstudents@ewolf.pro
+   #### M.151999347085af
+###21.download the Microsoft Entra Connect install on the DC01 and DC02
+###22.if it did not support for the TLS1.2 we need to open the powershell with admin to enforcement to use TLS1.2
+* Function Get-ADSyncToolsTls12RegValue
 {
     [CmdletBinding()]
     Param
@@ -72,4 +74,9 @@ $regKey = 'HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Pro
 $regSettings += Get-ADSyncToolsTls12RegValue $regKey 'Enabled'
 $regSettings += Get-ADSyncToolsTls12RegValue $regKey 'DisabledByDefault'
 
-$regSettings
+$regSettings*
+###23.when we use the azure we need to use MFA then we create Authenticator app like this:
+    ####EWolf Dev Tenant:ga.coopstudents@ewolf.pro
+    ####secret key: bmrnbdbmrybr5xtm
+
+### 24. install microsoft entra connect health agent https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-health-agent-install#download-the-agents
