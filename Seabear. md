@@ -80,3 +80,4 @@ $regSettings*
     ####secret key: bmrnbdbmrybr5xtm
 
 ### 24. install microsoft entra connect health agent https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-health-agent-install#download-the-agents
+25.install ninjar agent remotelly control: https://ca.ninjarmm.com/agent/installer/b2f63a83-fa3b-479d-adf3-3dfe75f15fd1/ewolfpromainoffice-7.0.2317-windows-installer.msi
