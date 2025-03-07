@@ -33,3 +33,15 @@ travel between ­ oors or to other areas in the building.       Enable Fast Tran
 STP goes from blocked, listening, learning, and forwarding
 and RSTP（802.1w) goes from Discarding, Learning, and Forwarding
 
+OSPF
+R1(config)# router ospf 33
+R1(config-router)# router-id 192.168.1.1
+R1(config)# interface GigabitEthernet0/0      # Interface to R2
+R1(config-if)# ip ospf 33 area 0            # Enable OSPF on this interface for Area 0
+R1(config-if)# ip ospf priority 255         # Set OSPF priority to 255 (high priority for DR)
+
+R1(config)# interface GigabitEthernet0/1      # Interface to R3
+R1(config-if)# ip ospf 33 area 0            # Enable OSPF on this interface for Area 0
+R1(config-if)# ip ospf priority 255         # Set OSPF priority to 255 (high priority for DR)
+R1# clear ip ospf process
+R1# wr
