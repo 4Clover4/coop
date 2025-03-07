@@ -26,3 +26,10 @@ Which technology is used to improve web tra® c performance by proxy caching?   
 
 Which protocol does an access point use to draw power from a connected switch?   Cisco Discovery Protocol  Power Over Ethernet (PoE)
 
+restrict the requests and force the user to wait 10 ms to retry an association request?    Enable the Protected Management Frame service and set the Comeback timer to 10
+
+travel between ­ oors or to other areas in the building.       Enable Fast Transition and select the FT PSK option
+
+STP goes from blocked, listening, learning, and forwarding
+and RSTP（802.1w) goes from Discarding, Learning, and Forwarding
+
