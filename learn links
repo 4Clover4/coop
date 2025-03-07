@@ -33,7 +33,7 @@ travel between ­ oors or to other areas in the building.       Enable Fast Tran
 STP goes from blocked, listening, learning, and forwarding
 and RSTP（802.1w) goes from Discarding, Learning, and Forwarding
 
-OSPF
+*** OSPF
 R1(config)# router ospf 33
 R1(config-router)# router-id 192.168.1.1
 R1(config)# interface GigabitEthernet0/0      # Interface to R2
@@ -45,3 +45,67 @@ R1(config-if)# ip ospf 33 area 0            # Enable OSPF on this interface for 
 R1(config-if)# ip ospf priority 255         # Set OSPF priority to 255 (high priority for DR)
 R1# clear ip ospf process
 R1# wr
+
+*** VLAN SWITCHPORT VOICE
+interface e0/1
+switchport mode access
+switchport access vlan 88
+switchport voice vlan 188
+
+interface e0/2
+switchport mode access
+switchport voice vlan 177
+wr
+
+SW1 (config)# lldp run
+wr
+
+
+What is the RFC 4627 default encoding for JSON text?      UTF-8
+
+*** DHCP on ROUTER
+
+R1(config)# ip dhcp excluded-address 192.168.10.1 192.168.10.10
+R1(config)# ip dhcp pool VLAN10_Pool
+R1(dhcp-config)# network 192.168.10.0 255.255.255.0
+R1(dhcp-config)# default-router 192.168.10.1
+R1(dhcp-config)# dns-server 8.8.8.8 8.8.4.4
+R1(dhcp-config)# lease 7 12 0  # 7 days, 12 hours lease time
+R1(config)# service dhcp
+
+username tech12 privilege 15 secret load1key
+line vty 0-4
+transport input telnet
+Task 2 1918 RFC
+Class A 10.0.0.0/8 255.0.0.0
+Class B 172.16.0.0/12 255.240.0.0
+ip access-list standard ISP_ACL
+deny 10.0.0.0 0.255.255.255
+deny 172.16.0.0 0.15.255.255
+permit any
+interface e0/1 ip access-group ISP_ACL out
+
+*** IP ARP
+ip arp inspection vlan 5
+ip arp validate des-mac
+ip arp validate src-mac
+ip arp validate ip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
