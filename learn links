@@ -56,7 +56,36 @@ Which plane is centralized in software-de¬ ned networking?        control
 
 How is a con¬ guration change made to a wireless AP in lightweight mode?           CAPWAP/LWAPP connection via the parent WLC
 
+Which 802.11 management frame type is sent when a client roams between access points on the same SSID?          Reassociation Request
 
+
+What is the recommended switch load-balancing mode for Cisco WLCs?   source-destination IP address
+
+Ansible inventory           file that defines the target devices upon which commands and tasks are executed
+
+northbound REST API for SDN?     application-facing interface for GET, POST, PUT, and DELETE methods
+
+Which function generally performed by a traditional network device is replaced by a software-de¬ ned controller?               building route tables and updating the forwarding table
+
+Which two northbound APIs are found in a software-de¬ ned network?              REST             SOAP
+
+
+PUT            It replaces data at the destination.
+
+
+How does Chef con¬ guration management enforce a required device con¬ guration?                 . The installed agent on the device connects to the Chef Infra Server and pulls its required con¬ guration from the cookbook.
+
+Which bene¬ t does Cisco DNA Center provide over traditional campus management?                   Cisco DNA Center leverages APIs, and traditional campus management requires manual data gathering.
+
+
+Which WPA mode uses PSK authenticaton                                                            . Personal
+
+Which security method is used to prevent man-in-the-middle attacks?                               anti-replay
+
+What is a characteristic of RSA                                                                   It is a public-key cryptosystem.
+
+
+multiple branch offices and large-scale deployments?                                              GETVPN                             DMVPN       
 
 STP goes from blocked, listening, learning, and forwarding
 and RSTP（802.1w) goes from Discarding, Learning, and Forwarding
