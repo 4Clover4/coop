@@ -87,6 +87,36 @@ What is a characteristic of RSA                                                 
 
 multiple branch offices and large-scale deployments?                                              GETVPN                             DMVPN       
 
+What is an enhancement implemented in WPA3?                                                       defends against deauthentication and disassociation attacks
+
+
+RSA            asymmetric encryption algorithm
+
+two protocols within the IPsec suite?                 . ESP          . AH
+
+WPA1           TKIP
+
+
+802.1q double-tagging VLAN-hopping attack = configure the native VLAN with a nondefault VLAN ID
+MAC flooding attack = configure 802.1x authenticate
+man-in-the-middle spoofing attack = configure DHCP snooping
+switch-spoofing VLAN-hopping attack = disable DTP
+
+
+ server types support domain name to IP address resolution?            web         resolver
+
+two actions are taken as the result of tra® c policing?                dropping       remarking
+
+Which DSCP per-hop forwarding behavior is divided into subclasses based on drop probability?              . assured
+
+
+What is the role of community strings in SNMP operations                     It serves as a password to protect access to MIB objects
+
+
+What is the functionality of the Cisco DNA Center?                software-defined controller for automation of devices and services
+
+1498
+
 STP goes from blocked, listening, learning, and forwarding
 and RSTP（802.1w) goes from Discarding, Learning, and Forwarding
 
