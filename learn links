@@ -30,6 +30,34 @@ restrict the requests and force the user to wait 10 ms to retry an association r
 
 travel between ­ oors or to other areas in the building.       Enable Fast Transition and select the FT PSK option
 
+What is a characteristic of frame switching?        performs a lookup to learn the destination interface
+
+a router do when it is con¬ gured with the default DNS lookup settings, and a URL is entered on the CLI?   It attempts to query a DNS server on the network.
+
+ on the WLC when implementing a RADIUS server for wireless authentication?      AAA Override and the IP address of the server
+
+Down Down means no cable or wrong cable has been used.
+
+FTP               It uses two separate connections for control and data tra® c.
+
+encryption in wireless networks            uses protocols such as TKIP and CCMP to secure data
+
+TFTP provide                                  loads con¬ guration files on systems without data storage devices
+
+REST API use to communicate      HTTP
+
+h interface on the WLC is limited to one when LAG is in use      . AP-manager
+
+What is used to identify spurious DHCP servers?     DHCPDISCOVER
+
+access point to forward all client tra® c through a wireless controller.          local
+
+Which plane is centralized in software-de¬ ned networking?        control
+
+How is a con¬ guration change made to a wireless AP in lightweight mode?           CAPWAP/LWAPP connection via the parent WLC
+
+
+
 STP goes from blocked, listening, learning, and forwarding
 and RSTP（802.1w) goes from Discarding, Learning, and Forwarding
 
