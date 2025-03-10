@@ -129,6 +129,24 @@ With REST API, which standard HTTP header tells a server which media type is exp
 
 Which HTTP status code is returned after a successful REST API request?                                           200
 
+ANSIBLE:
+Uses SSH
+Uses YAML
+CHEF:
+Uses Ruby
+Uses TCP 10002
+PUPPET:
+Funtamental configuration stored in a manifest
+Uses TCP 8140
+
+Which de¬ nition describes JWT in regard to REST API security?                   an encoded JSON token that is used for authentication
+
+Create new data structures and variables-> Create = POST
+Read (retrieve) variable names, structures, and values -> Read = GET
+Update or replace values of some variable Update -> = PATCH, PUT
+Delete some variables and data structures Delete -> = DELETE
+
+
 
 
 
