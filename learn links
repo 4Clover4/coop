@@ -146,6 +146,21 @@ Read (retrieve) variable names, structures, and values -> Read = GET
 Update or replace values of some variable Update -> = PATCH, PUT
 Delete some variables and data structures Delete -> = DELETE
 
+the function of `off-the-shelf` switches in a controller-based network                       forwarding packets
+
+
+communication between an SDN controller end applications running over the network            REST API
+
+script paradigm does Puppet use                   manifests and modules
+
+function of the controller in a software-de¬ ned network?                making routing decisions
+
+o REST API status-code classes
+1xx-informational, the request was received.
+2xx-Successful, request successfully received.
+3xx-Redirection, further action need to be taken.
+4xx-Client error, syntax error.
+5xx-Server error, server failed.
 
 
 
