@@ -115,10 +115,20 @@ What is the role of community strings in SNMP operations                     It 
 
 What is the functionality of the Cisco DNA Center?                software-defined controller for automation of devices and services
 
-1498
+OM3 and OM4 and OM4 fiber optic cable                             Both have a 50 micron core diameter.
 
+signal frequency appears 60 times per minute                     1 Hz signal
 
-1488
+link-local all-nodes IPv6 multicast address                      well-known link-local messages would start with “FF02”
+
+used to interconnect one switch using 1000 BASE-SX GBIC modules and another switch using 1000 BASE-SX SFP  modules                           LC to SC
+
+controller in a software-de¬ ned network                         setting packet-handling policies
+
+With REST API, which standard HTTP header tells a server which media type is expected by the client?                        Accept: application/json
+
+Which HTTP status code is returned after a successful REST API request?                                           200
+
 
 
 
