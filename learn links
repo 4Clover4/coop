@@ -239,6 +239,10 @@ minimum number of characters that is required in ASCII format     8
 Cisco Wireless LAN Controller when enabled restricts management access from speci¬ c networks?        CPU ACL
 
 
+stateful inspection of traffic            . firewall
+
+Priority Queuing (PQ)           optimize voice traffic
+
 
 
 
