@@ -163,6 +163,65 @@ o REST API status-code classes
 5xx-Server error, server failed.
 
 
+two southbound APIs?              NETCONF          OpenFlow
+
+plane handles switching for tra® c through a Cisco router             data  
+
+Ansible        . playbook       task
+
+device is added to Cisco DNA Center?            Managed state.      Provisioned state.
+
+control-plane          is centralized by an SDN controller
+
+control layer and the infrastructure layer          is the interface between the control plane and data plane   within the software-de¬ ned architecture
+
+Software Defined Access (SDA) to provide a tunnel between two edge nodes in different fabrics           Virtual Extensible LAN (VXLAN
+
+JSON data type is an unordered set of attribute-value pairs     object
+
+HTTP messages to transfer data to applications r     REST    GET, PUT, POST and DELETE
+
+southbound API            OpenFlow
+
+Ansible:
+- uses SSH (port 22) for remote device communication
+- uses YAML for fundamental configuration
+Chef:
+- uses TCP port 10002 for configuration push jobs
+- uses Ruby for fundamental configuration elements
+Puppet:
+- uses TCP 8140 for communication
+- fundamental configuration elements are stored in a manifest
+
+Puppet => arrows
+
+structured data that includes arrays      JSON
+
+API allows SDN controllers to dynamically make changes to the network        southbound API
+
+two encoding methods are supported by REST APIs         XML          JSON
+
+o prevent users from adding `Cisco` as a password        . password complexity enable
+
+VLAN hopping attacks?     access ports to VLANs other than the native VLAN
+
+WPA3-Personal security with a PSK           CCMP128
+
+Install a trusted third-party certi¬ cate on the Cisco ISE.
+
+DHCP snooping == Rogue server that spoofs IP configuration
+Dynamic ARP Inspection == Cache poisoning
+IP Source Guard == Rogue clients on the network
+Storm control == Flood attacks
+
+highest encryption and authentication using domain credentials from LDAP                                  Select WPA+WPA2 on Layer 2 Security.           Select 802.1X from under Authentication Key Management.
+
+control panel SDN  decision routing   
+data panel         forwording routing
+
+
+
+
 
 
 STP goes from blocked, listening, learning, and forwarding
