@@ -219,7 +219,22 @@ highest encryption and authentication using domain credentials from LDAP        
 control panel SDN  decision routing   
 data panel         forwording routing
 
+WPA2 PSK        ASCII and Hex 
 
+WPA        TKIP/MIC encryption
+
+comprise part of a PKI              one or more CRLs        CA that grants certi¬ cates
+
+802.11w             PMF to Required.
+
+802.11r.            Fast Transition option to Enable and enable FT 802.1X under Authentication Key Management.
+
+minimum number of characters that is required in ASCII format     8
+
+1.Configure the native VLAN with a nondefault VLAN ID   802.q vlan-hopping attack
+2. Configure 802.1x authenticate                        MAC flooding attack 
+3. Configure DHCP snooping                              MITM spoofing
+4. Disable DTP                                          switch-snooping vlan-hopping attack
 
 
 
