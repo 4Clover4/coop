@@ -236,6 +236,9 @@ minimum number of characters that is required in ASCII format     8
 3. Configure DHCP snooping                              MITM spoofing
 4. Disable DTP                                          switch-snooping vlan-hopping attack
 
+Cisco Wireless LAN Controller when enabled restricts management access from speci¬ c networks?        CPU ACL
+
+
 
 
 
