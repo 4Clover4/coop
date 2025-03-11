@@ -243,8 +243,30 @@ stateful inspection of traffic            . firewall
 
 Priority Queuing (PQ)           optimize voice traffic
 
+TFTP operate in a network       Uses block numbers to identify and mitigate data-transfer errors
+
+function of FTP                 . Uses two separate connections for control and data traffic
+
+Maintains an address pool
+Offers domain name server configuration
+Reduces the administrative burden for onboarding end users
+Assigns IP addresses to local hosts for a configurable lease time
+
+show snmp chassis: displays the snmp server serial number
+show snmp community: displays the snmp access string
+show snmp engineID: displays the IP address of the remote snmp device
+show snmp group: displays the snmp security model in use
+show snmp host: displays information about the snmp recipient
+
+DHCP UDP  bootps
 
 
+What prevents a workstation from receiving a DHCP address?            STP
+
+snmp-server user                Which command implies the use of SNMPv3?
+
+
+1085
 
 STP goes from blocked, listening, learning, and forwarding
 and RSTP（802.1w) goes from Discarding, Learning, and Forwarding
