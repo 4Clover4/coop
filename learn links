@@ -270,6 +270,41 @@ snmp-server user                Which command implies the use of SNMPv3?
 
 QoS tools provide congestion management?       . CBWFQ        . PQ
 
+If a notice-level message is sent to a syslog server, which event has occurred?               . A routing instance has ­ apped.
+
+a router to become a DHCP client               ip address dhcp
+
+0000.5E00.01xx is VRRP virtual MAC
+0000.0c07.acxx is HSRP virtual MAC
+0007.b400.xxyy is GLBP virtual MAC
+
+OSPF uses port 89 and does not use a transport protocol.
+EIGRP port 88.
+
+D = EIGRP, O = OSPF, L = Local, S = Static, C = Directly Connected
+
+. show ip ospf database            display the collection of OSPF link states
+
+error log in an EIGRP for IPv6 environment            show ipv6 eigrp events
+
+By default, how long will the switch continue to know a workstation MAC address after the workstation stops sending tra® c                  300 seconds
+
+Channel-group mode on.           WLC doesn’t support LACP or PAgP.
+
+Control and Provisioning of Wireless Access Points(CAPWAP) protocol          lightweight
+
+store and forward: checks the whole frame
+frament free mode: checks the first 64 byte (no crc)
+cut through: checks only the destination
+
+a switch con¬ gured with Rapid PVST+ listens and learns for a specific time period           switch(con¬ g)#spanning-tree vlan 1 forward-time 20
+
+What does a switch use to build its MAC address table?            ingress tra® c
+
+
+
+
+
 
 
 STP goes from blocked, listening, learning, and forwarding
