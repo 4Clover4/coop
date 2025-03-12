@@ -165,7 +165,7 @@ o REST API status-code classes
 
 two southbound APIs?              NETCONF          OpenFlow
 
-plane handles switching for tra® c through a Cisco router             data  
+plane handles switching for traffic through a Cisco router             data  
 
 Ansible        . playbook       task
 
@@ -266,7 +266,11 @@ What prevents a workstation from receiving a DHCP address?            STP
 snmp-server user                Which command implies the use of SNMPv3?
 
 
-1085
+. NTP uses UDP over IP   Cisco routers can act as both NTP authoritative servers and NTP clients.
+
+QoS tools provide congestion management?       . CBWFQ        . PQ
+
+
 
 STP goes from blocked, listening, learning, and forwarding
 and RSTP（802.1w) goes from Discarding, Learning, and Forwarding
