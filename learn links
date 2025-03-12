@@ -301,6 +301,28 @@ a switch con¬ gured with Rapid PVST+ listens and learns for a specific time per
 
 What does a switch use to build its MAC address table?            ingress tra® c
 
+. interface fastethernet0/1 switchport priority extend trust
+
+Con¬ gure the no lldp tlv-select management-address command globally on Cat9K-2.
+
+Which access layer threat-mitigation technique provides security based on identity?                802.1x
+
+UDP and TCP
+RADIUS uses UDP while TACACS+ uses TCP.
+...
+Packet Encryption
+RADIUS encrypts only the password in the access-request packet, from the client to the server...TACACS+ encrypts the entire body of the packet
+but leaves a standard TACACS+ header.
+...
+Authentication and Authorization
+RADIUS combines authentication and authorization...TACACS+ uses the AAA architecture, which separates AAA. This allows separate authentication
+solutions that can still use TACACS+ for authorization and accounting.
+
+Enable Security Association Teardown Protection and set the SA Query timeout to 10
+
+Local AP mode creates two CAPWAP tunnels per AP to the WLC
+
+
 
 
 
